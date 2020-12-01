@@ -1,0 +1,38 @@
+@charset "utf-8";
+/*헤더*/
+#header{
+	text-align:center;
+	line-height:80px;
+	position:relative;
+	background:#fff;
+}
+#header h1,h4{
+	margin:0;
+}
+.contact{
+	width:96px;
+	height:80px;
+	line-height:80px;
+	font-size:13px;
+	font-weight:300;
+	color:#fff;
+	background:#222;
+	position:absolute;
+	right:0;
+	top:0px;
+}
+.menu{
+	width:30px;
+	height:80px;
+	position:absolute;
+	left:0;
+	top:0;
+	background:url(../images/icon_menu.png) no-repeat center center;
+	background-size:contain;
+}
+/*푸터*/
+footer{
+	text-align:center;
+	line-height:80px;
+	background:#222;
+}
