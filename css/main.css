@@ -85,6 +85,9 @@
 	font-weight:200;
 	display:block;
 }
+.viewBtn1{
+	cursor:pointer;
+}
 /*메인컨텐츠2*/
 .con02Color1{
 	background:#f1f1f1;
