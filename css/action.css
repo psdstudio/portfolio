@@ -1,0 +1,9 @@
+@charset "utf-8";
+.mainCon01 .wmwInLeft,.mainCon01 .wmwInRight,.mainCon01 .wmwInLeft2{
+	opacity:1;
+	background-position-x:center;
+}
+.mainCon01 .wmwInRight{
+}
+.mainCon01 .wmwInLeft2{
+}

@@ -2,13 +2,11 @@
 body{
 	font-family:'NotoSans',sans-serif;
 	color:#222;
-	min-width:1200px;
 }
 body,ul,h1,h2,h3,h4,h5,h6,p{
 	margin:0;
 }
 h1,h2,h3,h4{
-	margin:8px 0;
 	letter-spacing:-1px;
 }
 ul{
@@ -29,5 +27,5 @@ a{
 	margin:0 auto;
 }
 p{
-	color:#666;
+	color:#333;
 }

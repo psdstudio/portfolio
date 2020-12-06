@@ -2,11 +2,44 @@ $(document).ready(function(){
 	$(".mainSlider").slick({
         dots:true,
         infinite:true,
-        slidesToShow:2,
-        slidesToScroll:2,
+        slidesToShow:1,
+        slidesToScroll:1,
 		prevArrow:'<div class="sliderBtn prevBtn">이전</div>',
 		nextArrow:'<div class="sliderBtn nextBtn">다음</div>'
       });
+});
+//페어플레이
+$(document).ready(function(){
+	$(window).scroll(function(){
+		var sct=$(window).scrollTop();
+	    if(sct>=485){
+		    $(".fpImg").addClass("wmwInLeft");
+		}else if(sct<485){
+			$(".fpImg").removeClass("wmwInLeft");
+		}
+	});
+});
+//호텔스컴바인
+$(document).ready(function(){
+	$(window).scroll(function(){
+		var sct2=$(window).scrollTop();
+	    if(sct2>=1455){
+		    $(".hcImg").addClass("wmwInRight");
+		}else if(sct2<1455){
+			$(".hcImg").removeClass("wmwInRight");
+		}
+	});
+});
+//부산시립미술관
+$(document).ready(function(){
+	$(window).scroll(function(){
+		var sct2=$(window).scrollTop();
+	    if(sct2>=2425){
+		    $(".bsImg").addClass("wmwInLeft2");
+		}else if(sct2<2425){
+			$(".bsImg").removeClass("wmwInLeft2");
+		}
+	});
 });
 //snow
 $(document).ready(function(){

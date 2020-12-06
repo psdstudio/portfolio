@@ -2,10 +2,13 @@
 .work{}
 /*메인슬라이더*/
 .mainSlider{
+	width:100%;
+	height:600px;
+	background:url(../images/portfolio.jpg) no-repeat center center;
+	background-size:cover;
 	cursor:pointer;
 }
 .mainSlider img{
-	width:600px;
 	position:relative;
 }
 .sliderBtn{
@@ -41,25 +44,56 @@
 .slick-active{
 	background:#222;
 }
+/*메인컨텐츠 공통*/
+.con01Txt h4,h3{
+	padding:10px 0;
+}
 /*메인컨텐츠1*/
 .mainCon01{
-	padding:60px 0;
+	width:1200px;
+	margin:0 auto;
+}
+.mainCon01Bg{
+	background:#ded9dd url(../images/fpbg.png) no-repeat right bottom;
+	background-size:30%;
+}
+.mainCon02Bg{
+	background:#fffdf4 url(../images/tree.png) no-repeat left top;
+	background-size:20%;
+}
+.mainCon03Bg{
+	background:#f1f1f1 url(../images/art.png) no-repeat 90% center;
 }
 .mainCon01>div{
 	width:50%;
+	height:100vh;
 	float:left;
 	box-sizing:border-box;
-	padding:30px;
+	padding:240px 15px;
 }
 .mainCon01 .fpImg{
-	width:42%;
-	display:block;
+	background:url(../images/fp.png) no-repeat center center;
+	background-size:50%;
+	background-position-x:-300px;
 }
-.ImgBox img{
-	width:100%;
-	display:block;
-	margin:0 auto;
+.mainCon01 .hcImg{
+	background:url(../images/hotelscombined.png) no-repeat center center;
+	background-size:570px;
+	background-position-x:600px;
 }
+.mainCon01 .bsImg{
+	background:url(../images/busanart.png) no-repeat center center;
+	background-size:570px;
+	background-position-x:-600px;
+}
+.mainCon01 .imgBox{
+	opacity:0;
+	transition:0.6s;
+	padding:15px;
+	box-sizing:border-box;
+}
+
+
 .colorBox li{
 	float:left;
 	margin-right:8px;
@@ -68,6 +102,7 @@
 	width:60px;
 	height:25px;
 	background:#000;
+	border:1px solid #000;
 }
 .Color2{
 	background:#222;
