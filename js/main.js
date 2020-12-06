@@ -8,7 +8,7 @@ $(document).ready(function(){
 		nextArrow:'<div class="sliderBtn nextBtn">다음</div>'
       });
 });
-//페어플레이
+//스크롤이벤트
 $(document).ready(function(){
 	$(window).scroll(function(){
 		var sct=$(window).scrollTop();
@@ -16,27 +16,13 @@ $(document).ready(function(){
 		    $(".fpImg").addClass("wmwInLeft");
 		}else if(sct<485){
 			$(".fpImg").removeClass("wmwInLeft");
-		}
-	});
-});
-//호텔스컴바인
-$(document).ready(function(){
-	$(window).scroll(function(){
-		var sct2=$(window).scrollTop();
-	    if(sct2>=1455){
+		}if(sct>=1455){
 		    $(".hcImg").addClass("wmwInRight");
-		}else if(sct2<1455){
+		}else if(sct<1455){
 			$(".hcImg").removeClass("wmwInRight");
-		}
-	});
-});
-//부산시립미술관
-$(document).ready(function(){
-	$(window).scroll(function(){
-		var sct2=$(window).scrollTop();
-	    if(sct2>=2425){
+		}if(sct>=2425){
 		    $(".bsImg").addClass("wmwInLeft2");
-		}else if(sct2<2425){
+		}else if(sct<2425){
 			$(".bsImg").removeClass("wmwInLeft2");
 		}
 	});
